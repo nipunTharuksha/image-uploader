@@ -2,7 +2,8 @@
 Image-Uploader is a simple jQuery Drag & Drop Image Uploader plugin made to be used in forms, without AJAX.
 
 ## Important notice
-This plugin uses the [DataTransfer API](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/DataTransfer). Therefore, is not a Cross Browser solution. Everything works fine on Chrome, though. See #3 for more details. If this is not a problem to you, feel free to enjoy the plugin.
+
+This plugin uses the [DataTransfer API](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/DataTransfer). Therefore, is not a Cross Browser solution where as MDN web docs mentioned Safari dosent support `DataTransfer()` which means plugin not working with Safari web browsers. Everything works fine on Chrome, though. See #3 for more details. If this is not a problem to you, feel free to enjoy the plugin.
 
 ## Demo
 [Demo page here](https://christianbayer.github.io/image-uploader/)
